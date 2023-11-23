@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body {
+  background-color: #0c182a;
+  font: 100% Helvetica, sans-serif; }
+  body .text-red {
+    color: #de0e0d !important; }
+  body .text-blue {
+    color: #83f5f7 !important; }
+  body main {
+    margin: 0;
+    padding: 0; }
+    body main .container-lg {
+      background: url("../img/bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      width: 100%;
+      min-height: 1400px;
+      position: relative;
+      padding: 0; }
+      body main .container-lg .bg-top {
+        background: url("../img/bg-2.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        position: absolute;
+        top: -20px;
+        height: 100%;
+        width: 100%; }
+      body main .container-lg .bg-bottom {
+        background: url("../img/bg-3.png");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        position: absolute;
+        bottom: -10px !important;
+        left: -10px !important;
+        right: -10px !important;
+        height: 500px;
+        width: auto; }
+      body main .container-lg .row {
+        margin: 0 !important;
+        padding: 0 20px; }
+        body main .container-lg .row .area-1 {
+          margin-top: 50px; }
+          body main .container-lg .row .area-1 .character img {
+            max-height: 250px; }
+          body main .container-lg .row .area-1 .character h3 {
+            font-size: 20px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600; }
+            body main .container-lg .row .area-1 .character h3::before {
+              content: attr(data-text); }
+          body main .container-lg .row .area-1 .character-info h2 {
+            letter-spacing: 0.02px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase; }
+            body main .container-lg .row .area-1 .character-info h2::before {
+              content: attr(data-text); }
+          body main .container-lg .row .area-1 .character-info h3 {
+            font-size: 50px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 800; }
+            body main .container-lg .row .area-1 .character-info h3::before {
+              content: attr(data-text); }
+          body main .container-lg .row .area-1 .character-info h4 {
+            font-size: 25px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600; }
+            body main .container-lg .row .area-1 .character-info h4::before {
+              content: attr(data-text); }
+          body main .container-lg .row .area-1 .rosette {
+            position: relative; }
+            body main .container-lg .row .area-1 .rosette .shadow-1 {
+              width: 100%;
+              height: 100%;
+              background: url("../img/rosette/shadow-1.png");
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center top;
+              z-index: 1;
+              position: absolute; }
+            body main .container-lg .row .area-1 .rosette h2 {
+              text-transform: uppercase;
+              font-size: 13px;
+              color: #fff;
+              font-weight: 700;
+              margin: 0 0 4px 0; }
+        body main .container-lg .row .area-2 {
+          width: 100%;
+          padding: 20px 40px; }
+          body main .container-lg .row .area-2 .row {
+            border: 3px solid #fff;
+            box-shadow: 0 0 10px #2ca0e9, 0 0 10px #2ca0e9, 0 0 10px #2ca0e9 inset, 0 0 10px #2ca0e9 inset;
+            padding: 30px; }
+            body main .container-lg .row .area-2 .row .column {
+              width: 32%;
+              padding: 0 15px; }
+              body main .container-lg .row .area-2 .row .column .extent {
+                height: 4px;
+                width: 100%;
+                background-color: #fff;
+                margin-bottom: 20px;
+                position: relative; }
+                body main .container-lg .row .area-2 .row .column .extent .dot {
+                  position: absolute;
+                  top: -7px;
+                  height: 18px;
+                  width: 18px;
+                  border-radius: 50%;
+                  background-color: #fff;
+                  box-shadow: 0 0 5px #fff, 0 0 10px #fff; }
+                  body main .container-lg .row .area-2 .row .column .extent .dot::before {
+                    content: "";
+                    right: attr(data-size); }
+                body main .container-lg .row .area-2 .row .column .extent .dot-shadow {
+                  position: absolute;
+                  left: 0px;
+                  top: -10px;
+                  width: 100px;
+                  height: 24px;
+                  background: url("../img/dot-shadow.png");
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                  background-position: center top; }
+              body main .container-lg .row .area-2 .row .column .item {
+                height: 60px;
+                box-sizing: border-box;
+                display: block;
+                justify-content: space-between !important;
+                position: relative; }
+                body main .container-lg .row .area-2 .row .column .item h2 {
+                  text-align: left;
+                  position: absolute;
+                  left: 0;
+                  letter-spacing: 0.1px;
+                  font-size: 32px;
+                  line-height: 40px;
+                  font-weight: 600;
+                  font-family: "Oswald", sans-serif;
+                  color: #fff;
+                  text-transform: uppercase;
+                  display: inline; }
+                  body main .container-lg .row .area-2 .row .column .item h2::before {
+                    content: attr(data-text); }
+                body main .container-lg .row .area-2 .row .column .item span {
+                  position: absolute;
+                  right: 0px;
+                  line-height: 40px;
+                  font-weight: 600;
+                  font-family: "Oswald", sans-serif;
+                  color: #fff;
+                  vertical-align: unset;
+                  text-align: right;
+                  display: inline;
+                  font-size: 38px; }
+                  body main .container-lg .row .area-2 .row .column .item span::before {
+                    content: attr(data-text); }
+                body main .container-lg .row .area-2 .row .column .item i {
+                  position: absolute;
+                  right: 0px;
+                  color: #fff;
+                  font-size: 30px;
+                  height: 40px;
+                  width: 40px;
+                  line-height: 40px; }
+                body main .container-lg .row .area-2 .row .column .item i.green {
+                  color: #84ff00; }
+                body main .container-lg .row .area-2 .row .column .item i.yellow {
+                  color: #ffde00; }
+                body main .container-lg .row .area-2 .row .column .item i.red {
+                  color: #ff0000; }
+            body main .container-lg .row .area-2 .row .column-s {
+              width: 36%;
+              padding: 0 15px; }
+              body main .container-lg .row .area-2 .row .column-s .item-s {
+                height: 42px;
+                box-sizing: border-box;
+                display: block;
+                justify-content: space-between !important;
+                position: relative;
+                text-align: left !important; }
+                body main .container-lg .row .area-2 .row .column-s .item-s h2 {
+                  text-align: left !important;
+                  padding-right: 10px;
+                  letter-spacing: 0.1px;
+                  font-size: 25px;
+                  line-height: 30px;
+                  font-weight: 600;
+                  font-family: "Oswald", sans-serif;
+                  color: #fff;
+                  text-transform: uppercase;
+                  display: inline; }
+                  body main .container-lg .row .area-2 .row .column-s .item-s h2::before {
+                    content: attr(data-text); }
+                body main .container-lg .row .area-2 .row .column-s .item-s span {
+                  font-size: 25px;
+                  padding-right: 10px;
+                  line-height: 40px;
+                  font-weight: 600;
+                  font-family: "Oswald", sans-serif;
+                  color: #fff;
+                  vertical-align: unset;
+                  text-align: right;
+                  display: inline; }
+                  body main .container-lg .row .area-2 .row .column-s .item-s span::before {
+                    content: attr(data-text); }
+                body main .container-lg .row .area-2 .row .column-s .item-s span.right {
+                  position: absolute;
+                  right: 55px; }
+                body main .container-lg .row .area-2 .row .column-s .item-s i {
+                  position: absolute;
+                  right: 0px;
+                  color: #fff;
+                  font-size: 30px;
+                  height: 40px;
+                  width: 40px;
+                  line-height: 40px; }
+                body main .container-lg .row .area-2 .row .column-s .item-s i.green {
+                  color: #84ff00; }
+                body main .container-lg .row .area-2 .row .column-s .item-s i.yellow {
+                  color: #ffde00; }
+                body main .container-lg .row .area-2 .row .column-s .item-s i.red {
+                  color: #ff0000; }
+        body main .container-lg .row .area-3 {
+          width: 100%;
+          padding: 20px 0 0 0;
+          position: relative; }
+          body main .container-lg .row .area-3 .left {
+            width: 45%;
+            padding: 10px 20px;
+            text-align: center !important;
+            position: relative; }
+            body main .container-lg .row .area-3 .left .left-box {
+              padding: 10px 20px;
+              position: relative; }
+              body main .container-lg .row .area-3 .left .left-box h2 {
+                letter-spacing: 0.1px;
+                font-size: 40px;
+                line-height: 60px;
+                font-weight: 600;
+                color: #fff;
+                text-transform: uppercase;
+                display: inline;
+                text-shadow: 0 0 10px #2ca0e9, 0 0 10px #2ca0e9; }
+                body main .container-lg .row .area-3 .left .left-box h2::before {
+                  content: attr(data-text); }
+              body main .container-lg .row .area-3 .left .left-box .frame-left {
+                position: absolute;
+                bottom: -20px;
+                top: 58px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 91%;
+                padding: 0;
+                background: url("../img/bg-5.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: left top; }
+              body main .container-lg .row .area-3 .left .left-box .frame-right {
+                position: absolute;
+                bottom: -20px;
+                top: 58px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 91%;
+                padding: 0;
+                background: url("../img/bg-6.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: right bottom; }
+              body main .container-lg .row .area-3 .left .left-box .chart {
+                margin: 20px 30px;
+                padding: 40px 20px 20px 20px;
+                width: auto;
+                height: 480px;
+                border: 3px solid #fff;
+                box-shadow: 0 0 10px #2ca0e9, 0 0 10px #2ca0e9, 0 0 10px #2ca0e9 inset, 0 0 10px #2ca0e9 inset; }
+                body main .container-lg .row .area-3 .left .left-box .chart .extent {
+                  height: 4px;
+                  width: 100%;
+                  background-color: #fff;
+                  margin-bottom: 20px;
+                  position: relative; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .extent .dot {
+                    position: absolute;
+                    top: -7px;
+                    height: 18px;
+                    width: 18px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    box-shadow: 0 0 5px #fff, 0 0 10px #fff; }
+                    body main .container-lg .row .area-3 .left .left-box .chart .extent .dot::before {
+                      content: "";
+                      right: attr(data-size); }
+                body main .container-lg .row .area-3 .left .left-box .chart .item {
+                  height: 60px;
+                  box-sizing: border-box;
+                  display: block;
+                  justify-content: space-between !important;
+                  position: relative; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .item h2 {
+                    text-align: left;
+                    position: absolute;
+                    left: 0;
+                    letter-spacing: 0.1px;
+                    font-size: 32px;
+                    line-height: 40px;
+                    font-weight: 600;
+                    font-family: "Oswald", sans-serif;
+                    color: #fff;
+                    text-transform: uppercase;
+                    display: inline;
+                    text-shadow: unset !important; }
+                    body main .container-lg .row .area-3 .left .left-box .chart .item h2::before {
+                      content: attr(data-text); }
+                  body main .container-lg .row .area-3 .left .left-box .chart .item span {
+                    position: absolute;
+                    right: 0px;
+                    line-height: 40px;
+                    font-weight: 600;
+                    font-family: "Oswald", sans-serif;
+                    color: #fff;
+                    vertical-align: unset;
+                    text-align: right;
+                    display: inline;
+                    font-size: 38px; }
+                    body main .container-lg .row .area-3 .left .left-box .chart .item span::before {
+                      content: attr(data-text); }
+                  body main .container-lg .row .area-3 .left .left-box .chart .item i {
+                    position: absolute;
+                    right: 0px;
+                    color: #fff;
+                    font-size: 30px;
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .item i.green {
+                    color: #84ff00; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .item i.yellow {
+                    color: #ffde00; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .item i.red {
+                    color: #ff0000; }
+                body main .container-lg .row .area-3 .left .left-box .chart .boxs {
+                  display: flex;
+                  -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+                  -ms-flex-item-align: center !important;
+                  align-self: center !important;
+                  -ms-flex-pack: center !important;
+                  justify-content: center !important;
+                  margin: 0;
+                  padding: 0 15px;
+                  width: 100%;
+                  height: 320px;
+                  position: relative;
+                  text-align: center !important; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .boxs .box {
+                    display: inline-block;
+                    width: 26%;
+                    height: 45px;
+                    margin-right: 11%;
+                    background-color: #fff;
+                    position: relative; }
+                    body main .container-lg .row .area-3 .left .left-box .chart .boxs .box span {
+                      position: absolute;
+                      top: -50px;
+                      left: 10px;
+                      color: #fff;
+                      font-size: 40px;
+                      line-height: 30px;
+                      font-weight: 600;
+                      font-family: "Oswald", sans-serif;
+                      color: #fff; }
+                      body main .container-lg .row .area-3 .left .left-box .chart .boxs .box span::before {
+                        content: attr(data-text); }
+                  body main .container-lg .row .area-3 .left .left-box .chart .boxs .box:last-child {
+                    margin-right: 0px; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .boxs .blue {
+                    box-shadow: 0 0 10px #2ca0e9, 0 0 10px #2ca0e9; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .boxs .orange {
+                    box-shadow: 0 0 10px #f06c22, 0 0 10px #f06c22; }
+                  body main .container-lg .row .area-3 .left .left-box .chart .boxs .green {
+                    box-shadow: 0 0 10px #2ca10c, 0 0 10px #2ca10c; }
+          body main .container-lg .row .area-3 .right {
+            width: 55%;
+            padding: 20px 20px 0 20px;
+            text-align: left !important;
+            position: relative; }
+            body main .container-lg .row .area-3 .right .item .title h2 {
+              letter-spacing: 0.1px;
+              font-size: 30px;
+              line-height: 30px;
+              font-weight: 600;
+              color: #fff;
+              text-transform: uppercase;
+              display: inline; }
+              body main .container-lg .row .area-3 .right .item .title h2::before {
+                content: attr(data-text); }
+            body main .container-lg .row .area-3 .right .item .boxs {
+              margin: 10px 0;
+              width: 100%;
+              height: 150px; }
+              body main .container-lg .row .area-3 .right .item .boxs .box {
+                display: inline-block;
+                width: 50px;
+                height: 45px;
+                margin-right: 3px;
+                background-color: #fff; }
+                body main .container-lg .row .area-3 .right .item .boxs .box .lines {
+                  position: relative;
+                  height: 90px;
+                  width: auto;
+                  top: 50px; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .line-1 {
+                    display: inline-block;
+                    position: absolute;
+                    width: 3px;
+                    height: 20px;
+                    background-color: #fff !important;
+                    box-shadow: 0 0 10px #fff; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .line-2 {
+                    display: inline-block;
+                    position: absolute;
+                    top: 20px;
+                    width: 100px;
+                    height: 3px;
+                    background-color: #fff !important;
+                    box-shadow: 0 0 10px #fff; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .line-3 {
+                    display: inline-block;
+                    position: absolute;
+                    top: 20px;
+                    left: 100px;
+                    width: 3px;
+                    height: 35px;
+                    background-color: #fff !important;
+                    box-shadow: 0 0 10px #fff;
+                    transform: rotate(-20deg); }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .line-4 {
+                    display: inline-block;
+                    position: absolute;
+                    top: 53px;
+                    left: 100px;
+                    width: 45px;
+                    height: 3px;
+                    background-color: #fff !important;
+                    box-shadow: 0 0 10px #fff; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .line-5 {
+                    display: inline-block;
+                    position: absolute;
+                    top: 48px;
+                    left: 100px;
+                    width: 15px;
+                    height: 15px;
+                    background-color: transparent !important;
+                    border: 3px solid #fff;
+                    border-radius: 50%;
+                    box-shadow: 0 0 10px #fff, 0 0 10px #fff inset; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .blue {
+                    box-shadow: 0 0 10px #2ca0e9, 0 0 10px #2ca0e9 !important; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .orange {
+                    box-shadow: 0 0 10px #f06c22, 0 0 10px #f06c22 !important; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines .green {
+                    box-shadow: 0 0 10px #2ca10c, 0 0 10px #2ca10c !important; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines div.text {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0;
+                    height: 60px; }
+                    body main .container-lg .row .area-3 .right .item .boxs .box .lines div.text span.text {
+                      position: absolute;
+                      width: auto;
+                      top: 0px;
+                      right: 0px !important;
+                      text-align: right;
+                      font-size: 22px;
+                      line-height: 30px;
+                      font-weight: 400;
+                      font-family: "Oswald", sans-serif;
+                      color: #fff;
+                      text-transform: uppercase; }
+                      body main .container-lg .row .area-3 .right .item .boxs .box .lines div.text span.text::before {
+                        content: attr(data-text); }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines span.number {
+                    width: 100px;
+                    position: absolute;
+                    top: 10px;
+                    right: 0;
+                    color: #fa6f6f;
+                    font-size: 40px;
+                    line-height: 40px;
+                    font-weight: 600;
+                    color: #fff;
+                    text-transform: uppercase; }
+                    body main .container-lg .row .area-3 .right .item .boxs .box .lines span.number::before {
+                      content: attr(data-text); }
+                body main .container-lg .row .area-3 .right .item .boxs .box .lines-end {
+                  top: 0px;
+                  left: 0; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines-end .line-2 {
+                    top: 0px; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines-end .line-3 {
+                    top: 0px; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines-end .line-4 {
+                    top: 32px; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines-end .line-5 {
+                    top: 27px; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines-end div.text {
+                    top: 5px; }
+                    body main .container-lg .row .area-3 .right .item .boxs .box .lines-end div.text span.text {
+                      top: 0px;
+                      line-height: 25px; }
+                  body main .container-lg .row .area-3 .right .item .boxs .box .lines-end span.number {
+                    top: -10px; }
+              body main .container-lg .row .area-3 .right .item .boxs .blue {
+                box-shadow: 0 0 10px #2ca0e9, 0 0 10px #2ca0e9; }
+              body main .container-lg .row .area-3 .right .item .boxs .orange {
+                box-shadow: 0 0 10px #f06c22, 0 0 10px #f06c22; }
+              body main .container-lg .row .area-3 .right .item .boxs .green {
+                box-shadow: 0 0 10px #2ca10c, 0 0 10px #2ca10c; }
+        @media (max-width: 1199px) {
+          body main .container-lg .row .area-2 .row .column {
+            width: 32%;
+            padding: 0 15px; }
+            body main .container-lg .row .area-2 .row .column .item h2 {
+              font-size: 28px; }
+          body main .container-lg .row .area-2 .row .column-s {
+            width: 36%;
+            padding: 0 15px; }
+            body main .container-lg .row .area-2 .row .column-s .item-s {
+              height: 42px; }
+              body main .container-lg .row .area-2 .row .column-s .item-s h2 {
+                font-size: 25px; }
+              body main .container-lg .row .area-2 .row .column-s .item-s span {
+                font-size: 25px; } }
+
+/*# sourceMappingURL=card-3.css.map */
